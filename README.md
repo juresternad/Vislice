@@ -1,4 +1,4 @@
 # Vislice
-Borut Pahor
+Jurij Vega
 Ivan Vidav
 Sašo Strle
