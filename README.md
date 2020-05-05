@@ -1,4 +1,4 @@
 # Vislice
-Jurij Vega
+Janez Janša
 Ivan Vidav
 Sašo Strle
