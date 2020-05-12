@@ -1,4 +1,6 @@
 # Vislice
-Jurij Vega
-Ivan Vidav
-Sašo Strle
+
+Projekt pri predmetu UVP
+
+Napisali bmo program, ki nas bo vodil skozi preprosto igro vislic.
+
