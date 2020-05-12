@@ -41,6 +41,7 @@ class Igra:
         if ugibana_crka in self.crke:
             return PONOVLJENA_CRKA
         else:
+            self.crke.append(ugibana_crka)
             if ugibana_crka in self.geslo:
                 if self.zmaga():
                     return ZMAGA
