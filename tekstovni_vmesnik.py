@@ -8,10 +8,9 @@ def izpis_igre(igra):
     )
 
 def izpis_zmage(igra):
-    return(
-        "Čestitam, uganil si geslo.\n"
+    return (
+        "Čestitam, uganil si geslo.\n" 
         "Uspelo ti je v {} poskusih.\n".format(len(igra.crke))
-
     )    
 
 def izpis_poraza(igra):
@@ -19,7 +18,6 @@ def izpis_poraza(igra):
         "Porabil si vse poskuse.\n"
         "Pravilno geslo je bilo {}\n".format(igra.geslo)
     )
-
 def zahtevaj_vnos():
     return input('Vnesi črko: ')
 
@@ -29,7 +27,6 @@ def pozeni_vmesnik():
         print(izpis_igre(igra))
         poskus = zahtevaj_vnos()
         stanje = igra.ugibaj(poskus)
-        igra.ugibaj(poskus)
         if stanje == model.ZMAGA:
             print(izpis_zmage(igra))
             break
@@ -38,3 +35,4 @@ def pozeni_vmesnik():
             break
 
 pozeni_vmesnik()
+
